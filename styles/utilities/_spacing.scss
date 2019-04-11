@@ -1,0 +1,4 @@
+// Calculate spacing based on a multiple of the vertical step.
+@function v-space($n: 1) {
+    @return $n * $v-step;
+}

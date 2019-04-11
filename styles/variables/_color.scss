@@ -1,0 +1,28 @@
+// Neutrals
+// ===
+$white: white;
+$black: black;
+$grey-100: hsl(0, 0%, 100%);    // #FEFEFE
+$grey-98: hsl(0, 0%, 98%);      // #F9F9F9
+$grey-97: hsl(0, 0%, 97%);      // #F7F7F7
+$grey-95: hsl(0, 0%, 95%);      // #F2F2F2
+$grey-92: hsl(0, 0%, 92%);      // #EBEBEB
+$grey-90: hsl(0, 0%, 90%);      // #E6E6E6
+$grey-85: hsl(0, 0%, 85%);      // #D9D9D9
+$grey-80: hsl(0, 0%, 80%);      // #CCCCCC
+$grey-75: hsl(0, 0%, 75%);      // #BFBFBF
+$grey-70: hsl(0, 0%, 70%);      // #B3B3B3
+$grey-60: hsl(0, 0%, 60%);      // #999999
+$grey-50: hsl(0, 0%, 50%);      // #808080
+$grey-40: hsl(0, 0%, 40%);      // #666666
+$grey-30: hsl(0, 0%, 30%);      // #4D4D4D
+$grey-20: hsl(0, 0%, 20%);      // #333333
+$grey-10: hsl(0, 0%, 10%);      // #191919
+
+// Colors
+// ===
+$pokemon-red: #e64949;
+
+// App Colors
+// ===
+$primary-color: $pokemon-red;

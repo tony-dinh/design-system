@@ -1,0 +1,12 @@
+// https://css-tricks.com/snippets/css/less-mixin-for-rem-font-sizing/
+@mixin font-size($size: 1.6) {
+    font-size: ($size * 10) + px; // Add fallback for old browsers
+    font-size: $size + rem;
+}
+
+@mixin truncate($max-width: 100%) {
+    max-width: $max-width;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
